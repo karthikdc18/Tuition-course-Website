@@ -13,15 +13,21 @@ export default function About() {
       <div className="container mx-auto px-4">
         {/* Static Image Section with Borders */}
         <div className="relative group">
-          <img
-            src="https://images.unsplash.com/flagged/photo-1574097656146-0b43b7660cb6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Tuition Center"
-            className="w-full h-[400px] object-cover rounded-lg mb-12 shadow-2xl"
-          />
-          <div className="absolute inset-0 bg-black opacity-60"></div>
-          <h2 className="opacity-70 absolute inset-0 flex items-center justify-center text-8xl text-white font-bold z-10">
-            About Us
-          </h2>
+        <div className="relative mb-12">
+  <img
+    src="https://images.unsplash.com/flagged/photo-1574097656146-0b43b7660cb6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="Tuition Center"
+    className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
+  />
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+  <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white z-10">
+    <h2 className="opacity-90 text-8xl font-bold mb-4">About Us</h2>
+    <p className="opacity-90 text-lg font-small max-w-4xl">
+      Home - Believes that the discipline of the students and the knowledge acquired from the be ginning becomes the most important asset for the students to succeed in their present as well as future.
+    </p>
+  </div>
+</div>
+
         </div>
 
         {/* DOWN ARROW MARK */}

@@ -29,13 +29,13 @@ export default function Hero() {
 
   return (
     <div id="home" className="relative">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 ">
         <img
           src={slides[currentSlide].image}
           alt="Education Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black opacity-60"></div> {/* Black transparent overlay */}
+        <div className="absolute inset-0 bg-black opacity-50"></div> {/* Black transparent overlay */}
       </div>
       <div className="relative container mx-auto px-4 py-24">
         <div className="max-w-3xl">
