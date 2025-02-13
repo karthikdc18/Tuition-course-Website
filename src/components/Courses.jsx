@@ -117,12 +117,12 @@ export default function Courses() {
                   className="w-full h-[300px] object-cover rounded-none"
                 />
                 <div className="p-6 flex-1">
-  <h3 className="text-2xl font-semibold mb-4">{card.title}</h3>
-  <p className="text-sm text-gray-600 mb-4">
-    <span className="font-bold">Subject:</span> {card.description}
-    <br />
-    <span className="font-bold">Grade:</span> {card.grade}
-  </p>
+                  <h3 className="text-2xl font-semibold mb-4">{card.title}</h3>
+                  <p className="text-sm text-gray-600 mb-4">
+                    <span className="font-bold">Subject:</span> {card.description}
+                    <br />
+                    <span className="font-bold">Grade:</span> {card.grade}
+                  </p>
                   <p className="text-base mb-6">
                     {card.description}
                   </p>
@@ -143,6 +143,55 @@ export default function Courses() {
           >
             <FaArrowRight className="text-white" size={24} />
           </button>
+        </div>
+
+        {/* Courses Offered Section */}
+<div className="text-left mb-16">
+  <h2 className="text-4xl font-bold text-gray-800 text-center mb-8 mt-20">Courses Offered</h2>
+  <p className="text-lg text-gray-600 mt-4 text-center">
+    At NLC, we offer a diverse range of courses designed to meet the individual needs and academic goals of students across different grade levels. 
+    Our experienced tutors provide personalized instruction and comprehensive support to ensure every student's success. 
+    Explore our courses below:
+  </p>
+
+  {/* Button Row */}
+  <div className="flex justify-center gap-4 mt-8">
+    <button className="text-orange-500 border-2 border-orange-500 px-6 py-2 rounded-none hover:bg-orange-500 hover:text-white transition duration-300">
+      TUTORS BY GRADE
+    </button>
+    <button className="text-orange-500 border-2 border-orange-500 px-6 py-2 rounded-none hover:bg-orange-500 hover:text-white transition duration-300">
+      TUTORS BY STREAM
+    </button>
+    <button className="text-orange-500 border-2 border-orange-500 px-6 py-2 rounded-none hover:bg-orange-500 hover:text-white transition duration-300">
+      TUTORS BY ACTIVITIES
+    </button>
+  </div>
+
+
+        {/* CBSE/ICSC/ STATE SYLLABUS/ NIOS Offered Section */}
+<div className="text-left mb-16">
+  <h2 className="text-4xl font-bold text-gray-800 text-center mb-6 mt-20">CBSE/ICSE/STATE SYLLABUS/NIOS</h2>
+  <p className="text-lg text-gray-600 mt-2 text-center">
+    Class 1st to Class 6th
+  </p>
+  <p className="text-lg text-gray-600 text-center">
+    All Subjects
+  </p>
+</div>
+
+{/* Images Section */}
+<div className="flex justify-center gap-2 mt-8">
+  <img src="https://st4.depositphotos.com/1022914/22996/i/450/depositphotos_229966952-stock-photo-letters-fly-off-the-open.jpg" alt="Image 1" className="w-64 h-32"/>
+  <img src="https://cache.careers360.mobi/media/article_images/2023/1/13/English-essay.jpg" alt="Image 3" className="w-64 h-32"/>
+  <img src="https://img.freepik.com/free-vector/colorful-science-education-background_23-2148490697.jpg" alt="Image 4" className="w-64 h-32"/>
+  <img src="https://images.vexels.com/media/users/3/197058/raw/15626d7a0d8a12c8d255da606cade743-social-studies-elements-illustration-set.jpg" alt="Image 5" className="w-64 h-32"/>
+  <img src="https://static.india.com/wp-content/uploads/2023/01/hindi-main.jpg?impolicy=Medium_Resize&w=1200&h=800" alt="Image 6" className="w-64 h-32"/>
+</div>
+
+
+
+
+
         </div>
       </div>
     </section>
