@@ -115,7 +115,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-center pt-[2.5rem] px-[2.5rem]">
             {/* Name/Description above the image */}
             <div className="flex-shrink-0 w-full md:w-[40%] text-center">
-  <h2 className="text-2xl font-bold text-gray-800">Hello, I'm Saira </h2>
+  <h2 className="text-2xl font-bold text-gray-800">Hello, I'm Saira Banu </h2>
   <p className="text-gray-500 mt-2">Founder | Teacher | Volunteering</p>
   <img
     src="wp2180562.jpg"
@@ -146,7 +146,7 @@ export default function About() {
               {/* Let's Work Together Button */}
               <div className="mt-6 ml-6">
   <a
-    href="#contact"
+    href="/contact"
     className="inline-block px-4 py-2 mt-4 border border-yellow-500 text-yellow-500 font-medium rounded-md text-sm hover:bg-yellow-500 hover:text-white focus:outline-none focus:ring-1 focus:ring-yellow-400 shadow-2xl hover:shadow-xl"
   >
     Let's Work Together
