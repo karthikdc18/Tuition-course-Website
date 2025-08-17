@@ -180,7 +180,7 @@ export default function About() {
             <p className="text-gray-600 text-[1.23rem]">
               <strong>Phone:</strong>
               <a href="tel:+1234567890" className="hover:text-blue-500 focus:text-blue-500">
-                +123 456 7890
+                +91 734 892 9927
               </a>
             </p>
           </div>
